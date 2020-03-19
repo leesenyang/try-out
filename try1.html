@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Try1</title>
+        <style>
+            h2 p{
+                padding-left: 20px;
+            }
+
+        </style>
+    </head>  
+    <body>
+        <script type="text/javascript" src="try1.js"></script>
+        
+        <h2>FirstTry</h2>
+        <p>loreum ipseum</p>
+        <button onclick=sayHello()>Press here!</button>
+        </br>       
+        <table style="border: aqua;">
+            <tr>
+                <p>New User ?</p>
+               <button onclick=userAdd()>Click here!</button>
+            </tr>
+            <tr>
+                <p>Existing user:</p>
+                <button onclick=listUser()>Click here!</button>
+            </tr>
+        </table>
+
+        <script>
+        
+            var daysOfWeek=["Monday", "Tuesday", "Wednesday",  
+                            "Thursday", "Friday", "Saturday" , "Sunday"];
+            document.write(daysOfWeek[5] +"<br>");
+            document.write("<ul>");		
+            for(var i=0;i<daysOfWeek.length;i++) {
+                document.write("<li>");
+                    document.write(daysOfWeek[i]);
+                document.write("</li>");                
+            }
+                document.write("</ul>");
+                alert("its working!");
+        </script>
+
+    </body>
+</html>
