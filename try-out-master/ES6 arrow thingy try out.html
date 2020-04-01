@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+<h1>basic ES6 try out</h1>
+<br>
+
+<p id="uwu"></p>
+<p id="oof"></p>
+<script>
+    const x = (x, y) => x*y;
+    document.getElementById("uwu").innerHTML = x(5,6);
+
+    var nums = [4,12,21,44,123];
+    var first = nums.find(high);
+    document.getElementById("oof").innerHTML = "the first number after 30, is  " + first;
+
+    function high(value, index, array)
+    {
+        return value > 30;
+    }
+</script> 
+
+
+</body>
+</html>

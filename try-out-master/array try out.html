@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<h1>array testing</h1>
+    <p id = "results1"></p>
+    <p id = "results2"></p>
+    <p id = "results3"></p>
+    <p id = "results4"></p>
+    <p id = "results5"></p>
+<script >
+var fruits = ["Banana", "Apple", "Orange", "Pear", "Durian"];
+document.getElementById("results1").innerHTML = fruits;
+
+fruits.pop();
+document.getElementById("results2").innerHTML = fruits;
+
+fruits.push("Mango");
+document.getElementById("results3").innerHTML = fruits;
+
+fruits[fruits.length] = "Strawberry";
+document.getElementById("results4").innerHTML = fruits;
+
+var vegetables = ["carrots", "cabbage", "beans", "celery"];
+var fruits2 = ["Banana", "Apple", "Orange", "Pear", "Durian"];
+var thingsToEat = vegetables.concat(fruits2);
+document.getElementById("results5").innerHTML = thingsToEat
+</script>
+
+
+</body>
+</html>
